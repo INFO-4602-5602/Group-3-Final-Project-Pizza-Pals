@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.1110.1721                               -->
+<workbook original-version='18.1' source-build='2019.2.6 (20192.19.1110.1721)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19' inline='true' name='federated.1l076cf0oswr9y10qu2mi0o90pb1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19' name='textscan.0fpum000owyrz018n3iej02hdip6'>
+            <connection class='textscan' directory='C:/Users/Trevor/Documents/Fall 2019/INFO/Final' filename='Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0fpum000owyrz018n3iej02hdip6' name='Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv' table='[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='id' ordinal='0' />
+            <column datatype='datetime' name='dateAdded' ordinal='1' />
+            <column datatype='datetime' name='dateUpdated' ordinal='2' />
+            <column datatype='string' name='address' ordinal='3' />
+            <column datatype='string' name='categories' ordinal='4' />
+            <column datatype='string' name='primaryCategories' ordinal='5' />
+            <column datatype='string' name='city' ordinal='6' />
+            <column datatype='string' name='country' ordinal='7' />
+            <column datatype='string' name='keys' ordinal='8' />
+            <column datatype='real' name='latitude' ordinal='9' />
+            <column datatype='real' name='longitude' ordinal='10' />
+            <column datatype='string' name='menuPageURL' ordinal='11' />
+            <column datatype='real' name='menus.amountMax' ordinal='12' />
+            <column datatype='real' name='menus.amountMin' ordinal='13' />
+            <column datatype='string' name='menus.currency' ordinal='14' />
+            <column datatype='string' name='menus.dateSeen' ordinal='15' />
+            <column datatype='string' name='menus.description' ordinal='16' />
+            <column datatype='string' name='menus.name' ordinal='17' />
+            <column datatype='string' name='name' ordinal='18' />
+            <column datatype='integer' name='postalCode' ordinal='19' />
+            <column datatype='string' name='priceRangeCurrency' ordinal='20' />
+            <column datatype='integer' name='priceRangeMin' ordinal='21' />
+            <column datatype='integer' name='priceRangeMax' ordinal='22' />
+            <column datatype='string' name='province' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dateAdded</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[dateAdded]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>dateAdded</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dateUpdated</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[dateUpdated]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>dateUpdated</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>categories</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[categories]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>categories</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primaryCategories</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primaryCategories]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>primaryCategories</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>keys</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[keys]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>keys</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menuPageURL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[menuPageURL]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menuPageURL</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menus.amountMax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[menus.amountMax]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menus.amountMax</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menus.amountMin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[menus.amountMin]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menus.amountMin</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menus.currency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[menus.currency]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menus.currency</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menus.dateSeen</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[menus.dateSeen]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menus.dateSeen</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menus.description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[menus.description]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menus.description</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>menus.name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[menus.name]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>menus.name</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>postalCode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[postalCode]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>postalCode</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>priceRangeCurrency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[priceRangeCurrency]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>priceRangeCurrency</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>priceRangeMin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[priceRangeMin]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>priceRangeMin</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>priceRangeMax</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[priceRangeMax]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>priceRangeMax</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[province]</local-name>
+            <parent-name>[Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv]</parent-name>
+            <remote-alias>province</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Categories' datatype='string' name='[categories]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Added' datatype='datetime' name='[dateAdded]' role='dimension' type='ordinal' />
+      <column caption='Date Updated' datatype='datetime' name='[dateUpdated]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column caption='Keys' datatype='string' name='[keys]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Menu Page URL' datatype='string' name='[menuPageURL]' role='dimension' type='nominal' />
+      <column caption='Menus.Currency' datatype='string' name='[menus.currency]' role='dimension' type='nominal' />
+      <column caption='Menus.Description' datatype='string' name='[menus.description]' role='dimension' type='nominal' />
+      <column caption='Menus.Name' datatype='string' name='[menus.name]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Postal Code' datatype='integer' default-format='*00000' name='[postalCode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Price Range Currency' datatype='string' name='[priceRangeCurrency]' role='dimension' type='nominal' />
+      <column caption='Price Range Max' datatype='integer' name='[priceRangeMax]' role='measure' type='quantitative' />
+      <column caption='Price Range Min' datatype='integer' name='[priceRangeMin]' role='measure' type='quantitative' />
+      <column caption='Primary Categories' datatype='string' name='[primaryCategories]' role='dimension' type='nominal' />
+      <column caption='Province' datatype='string' name='[province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.642857' measure-ordering='alphabetic' measure-percentage='0.357143' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19' name='federated.1l076cf0oswr9y10qu2mi0o90pb1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l076cf0oswr9y10qu2mi0o90pb1'>
+            <column-instance column='[menus.amountMin]' derivation='Avg' name='[avg:menus.amountMin:qk]' pivot='key' type='quantitative' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[city]' derivation='Count' name='[cnt:city:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[menus.amountMin]' role='measure' type='quantitative' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1l076cf0oswr9y10qu2mi0o90pb1].[none:city:nk]'>
+            <groupfilter expression='COUNT([city]) &gt;= 60' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:city:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1l076cf0oswr9y10qu2mi0o90pb1].[none:city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1l076cf0oswr9y10qu2mi0o90pb1].[cnt:city:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l076cf0oswr9y10qu2mi0o90pb1].[cnt:city:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1l076cf0oswr9y10qu2mi0o90pb1].[avg:menus.amountMin:qk]</rows>
+        <cols>[federated.1l076cf0oswr9y10qu2mi0o90pb1].[none:city:nk]</cols>
+      </table>
+      <simple-id uuid='{08252F21-1C26-4F09-849C-9A05E8921BDC}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1l076cf0oswr9y10qu2mi0o90pb1].[cnt:city:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1l076cf0oswr9y10qu2mi0o90pb1].[cnt:city:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BC7B0C49-0BD2-448D-A899-C0C71C4C0D46}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      YII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

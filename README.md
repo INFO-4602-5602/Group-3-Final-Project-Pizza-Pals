@@ -6,7 +6,7 @@ The origins of America’s favorite delivery food can be traced back to antiquit
 
 REPORT:
 
-The file named " ___ " is our final report. In here you will find a description of the three analyses we did, as well as our results.  We included an 'Introduction", a "Related Work", and a "Conclusion" section.  Lastly we listed our sources.
+The file named "INFO 4602 - Research Paper.docx" is our final report. In here you will find a description of the three analyses we did, as well as our results.  We included an 'Introduction", a "Related Work", and a "Conclusion" section.  Lastly we listed our sources.
 
 ARTIFACTS:
 
